@@ -27,3 +27,6 @@ git add . - adiciona os arquivos alterados/criados/excluídos para fazer o commi
 git commit -m "<mensagem>" - faz o commit com uma mensagem
 git status - permite visualizar alterações no projeto local
 git push origin main - envia os arquivos do commit do repositório local para o repositório remoto
+
+
+alterando para fazer commit pela interface gráfica
