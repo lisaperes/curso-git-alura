@@ -31,5 +31,6 @@ git push origin main - envia os arquivos do commit do repositório local para o 
 
 alterando para fazer commit pela interface gráfica
 
+alterando no repositório remoto para dar conflito com o repositório local.
 
 alterando no repositório local para dar conflito com o repositório remoto.
