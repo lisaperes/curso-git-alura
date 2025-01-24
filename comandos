@@ -1,0 +1,25 @@
+git init - inicializa o repositório local
+git remote add origin <url ssh do github> - faz o vínculo do repositório remoto com o local
+git clone <url que pega no github> - clona o projeto do repositório remoto para o repositório local
+git add . - adiciona os arquivos alterados/criados/excluídos para fazer o commit
+git commit -m "<mensagem>" - faz o commit com uma mensagem
+git status - permite visualizar alterações no projeto local
+git log - permite visualizar commits, para sair usar q
+git branch -M main - coloca a branch master como main, se não fizer esse comando, quando for fazer o push, indica master no lugar de main
+git push -u origin main - envia os arquivos do commit do repositório local para o repositório remoto
+
+
+
+##### Para gerar a chave ssh
+ssh-keygen -t ed25519 -C "SEU EMAIL AQUI"
+cola a chave pública no github
+
+
+##### Para configurar variáveis do git
+git config --global user.email "your@example.com"
+git config --global user.name "Your Name"
+
+
+##### Clonar um projeto
+git clone <url que pega no github> - clona o projeto do repositório remoto para o repositório local
+git status
